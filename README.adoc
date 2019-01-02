@@ -1,6 +1,6 @@
 = Awesome PureBasic
 Tristano Ajmone <tajmone@gmail.com>
-2019-01-02
+2019-01-03
 :lang: en
 // Metadata:
 :description: pass:[Awesome PureBasic &mdash; A curated list of PureBasic resources.]
@@ -48,8 +48,9 @@ endif::[]
 A curated list of {PureBasic} resources.
 Created by {tajmone} on January 2^nd^, 2019.
 
-* https://github.com/tajmone/awesome-purebasic[] -- GitHub repository
-* https://git.io/awesome-purebasic[] -- GitHub Pages website
+* https://github.com/tajmone/awesome-purebasic[^] -- GitHub repository
+* https://gitlab.com/tajmone/awesome-purebasic[^] -- GitLab repository
+* https://git.io/awesome-purebasic[^] -- GitHub Pages website
 
 Released under {LICENSE}.
 
@@ -123,6 +124,9 @@ Don't forget to follow authors you like!
 // repositories on the landing page!
 // -----------------------------------------------------------------------------
 
+// =============================================================================
+//                                USERS PROFILES
+// =============================================================================
 
 === Users
 
@@ -212,6 +216,9 @@ Country: Italy
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 * https://gitlab.com/{UserID}[gitlab.com/{UserID}^]
 
+// =============================================================================
+//                            ORGANIZATIONS PROFILES
+// =============================================================================
 
 === Organizations
 
