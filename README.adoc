@@ -38,7 +38,8 @@ endif::[]
 A curated list of {PureBasic} resources.
 Created by {tajmone} on January 2^nd^, 2019.
 
-* https://github.com/tajmone/awesome-purebasic
+* https://github.com/tajmone/awesome-purebasic[] -- GitHub repository
+* https://tajmone.github.io/awesome-purebasic[] -- GitHub Pages website
 
 Released under {LICENSE}.
 ================================================================================
