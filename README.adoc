@@ -6,7 +6,7 @@ Tristano Ajmone <tajmone@gmail.com>
 :description: pass:[Awesome PureBasic &mdash; A curated list of PureBasic resources.]
 :keywords: purebasic, resources, libraries, source code, projects, open source
 // TOC Settings:
-:toclevels: 1
+:toclevels: 2
 ifdef::backend-html5[]
 :toc: left
 endif::[]
@@ -63,10 +63,15 @@ toc::[]
 '''
 endif::[]
 
+// *****************************************************************************
+// *                                                                           *
+// *                             CODE COLLECTIONS                              *
+// *                                                                           *
+// *****************************************************************************
 
 == Code Collections
 
-
+[discrete]
 === PureBasic CodeArchiv Rebirth
 
 * https://github.com/SicroAtGit/PureBasic-CodeArchiv-Rebirth
@@ -75,10 +80,40 @@ A collection of useful codes from the PureBasic forums and other sources, presen
 
 Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"].
 
+// *****************************************************************************
+// *                                                                           *
+// *                                 PROJECTS                                  *
+// *                                                                           *
+// *****************************************************************************
+
+
+== Projects
+
+
+=== Disassemblers
+
+
+==== distorm-PB
+
+diStorm Disassembler for PureBasic.
+
+* https://github.com/ToniPB/distorm-PB
+
+A lightweight, Easy-to-Use and Fast Disassembler/Decomposer Library for x86/AMD64.
+A Decomposer means that you get a binary structure that describes an instruction rather than textual representation.
+
+Based on Gil Dabah's https://github.com/gdabah/distorm[diStorm3^], and released under GPL license.
+
+// *****************************************************************************
+// *                                                                           *
+// *                         PUREBASIC CODERS NETWORK                          *
+// *                                                                           *
+// *****************************************************************************
+
 
 == PureBasic Coders Network
 
-Links to GitHub and GitLab profiles of PureBasic coders, to help establish connections with each others.
+Links to GitHub and GitLab users and organizations profiles of PureBasic coders, to help establish connections with each others.
 
 [TIP]
 Don't forget to follow authors you like!
@@ -88,29 +123,104 @@ Don't forget to follow authors you like!
 // repositories on the landing page!
 // -----------------------------------------------------------------------------
 
-=== David Vogel (@Dadido3)
+
+=== Users
+
+
+==== aziascreations (Herwin Bozet)
+
+Country: Belgium
+
+:UserID: aziascreations
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== codeprof (Stefan Moebius)
+
+Country: Germany
+
+:UserID: codeprof
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== creamcast (BORIS)
+
+:UserID: creamcast
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== Dadido3 (David Vogel)
 
 :UserID: Dadido3
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-=== mestnyi33
+==== deseven
+
+Country: Serbia
+
+:UserID: deseven
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== falsam
+
+Country: France
+
+:UserID: falsam
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== Guevara-chan (Victoria Guevara)
+
+:UserID: Guevara-chan
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== Hyneman
+
+:UserID: Hyneman
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== mestnyi33
 
 :UserID: mestnyi33
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-=== SicroAtGit
+==== microdevweb (Bielen Pierre)
+
+Country: Belgium
+
+:UserID: microdevweb
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== nueh (Niklas Hennigs)
+
+:UserID: nueh
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== SicroAtGit
 
 Country: Germany
 
 :UserID: SicroAtGit
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-=== Tristano Ajmone (@tajmone)
+==== ToniPB
+
+:UserID: ToniPB
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== tajmone (Tristano Ajmone)
 
 Country: Italy
 
 :UserID: tajmone
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 * https://gitlab.com/{UserID}[gitlab.com/{UserID}^]
+
+
+=== Organizations
+
+Groups of people gathering under GitHub organization profiles to collaborate on PureBasic projects.
+
+==== PureBasic CodeX
+
+:UserID: pbcodex
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
 
 // EOF //
