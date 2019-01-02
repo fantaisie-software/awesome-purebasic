@@ -14,7 +14,7 @@ Guidelines to submitting contributions to the [Awesome PureBasic] project.
     - [Don't Commit Changes to The HTML Page](#dont-commit-changes-to-the-html-page)
     - [Editing AsciiDoc](#editing-asciidoc)
     - [Don't Add Links to Unlicensed Resources](#dont-add-links-to-unlicensed-resources)
-    - [Don't Use Issue to Submit Links](#dont-use-issue-to-submit-links)
+    - [Don't Use Issues to Submit Links](#dont-use-issues-to-submit-links)
 - [Eligible Resources Types](#eligible-resources-types)
     - [Source Code](#source-code)
     - [Tutorials](#tutorials)
@@ -59,7 +59,7 @@ The document is rather simply structured, so looking at how the present entries 
 
 Links to illegitimate/unauthorized resources _will not_ be included in this project. Any source code and resource that does not bare an _explicit_ license or permission of reusability is to be considered as copyrighted material. 
 
-## Don't Use Issue to Submit Links
+## Don't Use Issues to Submit Links
 
 Please, don't open an issue to submit a resource link, hoping that other will add it for you! Instead, fork, edit and create a pull request.
 
