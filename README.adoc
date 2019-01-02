@@ -1,0 +1,64 @@
+= Awesome PureBasic
+Tristano Ajmone <tajmone@gmail.com>
+2019-01-02
+:lang: en
+:sectanchors:
+// TOC Settings:
+:toclevels: 1
+ifdef::backend-html5[]
+:toc: left
+endif::[]
+ifdef::env-github[]
+:toc: macro
+endif::[]
+// Sections Numbering:
+:sectnums!:
+// Misc Settings:
+:experimental: true
+:reproducible: true
+:sectanchors:
+:icons: font
+:linkattrs: true
+:idprefix:
+:idseparator: -
+// ==============================================================================
+//                      Custom Attributes for Substitutions
+// ==============================================================================
+:tajmone: https://github.com/tajmone[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
+:PureBasic: https://www.purebasic.com/[PureBasic^,title="Visit PureBasic website"]
+:SpiderBasic: https://www.spiderbasic.com/[PureBasic^,title="Visit SpiderBasic website"]
+:LICENSE: https://github.com/tajmone/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
+// *****************************************************************************
+// *                                                                           *
+// *                            Document Preamble                              *
+// *                                                                           *
+// *****************************************************************************
+
+================================================================================
+A curated list of {PureBasic} resources.
+Created by {tajmone} on January 2^nd^, 2019.
+
+* https://github.com/tajmone/awesome-purebasic
+
+Released under {LICENSE}.
+================================================================================
+
+ifdef::env-github[]
+'''
+toc::[]
+'''
+endif::[]
+
+
+== Code Collections
+
+
+=== PureBasic CodeArchiv Rebirth
+
+* https://github.com/SicroAtGit/PureBasic-CodeArchiv-Rebirth
+
+A collection of useful codes from the PureBasic forums and other sources, presented in a categorized and quickly accessible format.
+
+Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"].
+
+// EOF //
