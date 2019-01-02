@@ -2,7 +2,9 @@
 Tristano Ajmone <tajmone@gmail.com>
 2019-01-02
 :lang: en
-:sectanchors:
+// Metadata:
+:description: pass:[Awesome PureBasic &mdash; A curated list of PureBasic resources.]
+:keywords: purebasic, resources, libraries, source code, projects, open source
 // TOC Settings:
 :toclevels: 1
 ifdef::backend-html5[]
@@ -11,23 +13,23 @@ endif::[]
 ifdef::env-github[]
 :toc: macro
 endif::[]
-// Sections Numbering:
-:sectnums!:
 // Misc Settings:
 :experimental: true
-:reproducible: true
-:sectanchors:
 :icons: font
-:linkattrs: true
 :idprefix:
 :idseparator: -
+:linkattrs: true
+:reproducible: true
+:sectanchors:
+:sectnums!:
 // ==============================================================================
 //                      Custom Attributes for Substitutions
 // ==============================================================================
-:tajmone: https://github.com/tajmone[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
+:GitHubFilter: ?tab=repositories&language=purebasic
+:LICENSE: https://github.com/tajmone/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
 :PureBasic: https://www.purebasic.com/[PureBasic^,title="Visit PureBasic website"]
 :SpiderBasic: https://www.spiderbasic.com/[PureBasic^,title="Visit SpiderBasic website"]
-:LICENSE: https://github.com/tajmone/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
+:tajmone: https://github.com/tajmone[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
 // *****************************************************************************
 // *                                                                           *
 // *                            Document Preamble                              *
@@ -39,9 +41,12 @@ A curated list of {PureBasic} resources.
 Created by {tajmone} on January 2^nd^, 2019.
 
 * https://github.com/tajmone/awesome-purebasic[] -- GitHub repository
-* https://tajmone.github.io/awesome-purebasic[] -- GitHub Pages website
+* https://git.io/awesome-purebasic[] -- GitHub Pages website
 
 Released under {LICENSE}.
+
+[TIP]
+Don't forget to star projects you like! (It's free and shows appreciation)
 ================================================================================
 
 ifdef::env-github[]
@@ -61,5 +66,43 @@ endif::[]
 A collection of useful codes from the PureBasic forums and other sources, presented in a categorized and quickly accessible format.
 
 Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"].
+
+
+== PureBasic Coders Network
+
+Links to GitHub and GitLab profiles of PureBasic coders, to help establish connections with each others.
+
+[TIP]
+Don't forget to follow authors you like!
+
+// ---{ ** EDITING TIP ** }-----------------------------------------------------
+// Add {GitHubFilter} after a GitHub profile link to show the user's PureBasic
+// repositories on the landing page!
+// -----------------------------------------------------------------------------
+
+=== David Vogel (@Dadido3)
+
+:UserID: Dadido3
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+=== mestnyi33
+
+:UserID: mestnyi33
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+=== SicroAtGit
+
+Country: Germany
+
+:UserID: SicroAtGit
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+=== Tristano Ajmone (@tajmone)
+
+Country: Italy
+
+:UserID: tajmone
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+* https://gitlab.com/{UserID}[gitlab.com/{UserID}^]
 
 // EOF //
