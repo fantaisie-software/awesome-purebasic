@@ -37,10 +37,15 @@ endif::[]
 // ==============================================================================
 //                      Custom Attributes for Substitutions
 // ==============================================================================
+// Substitutions Helpers:
 :GitHubFilter: ?tab=repositories&language=purebasic
+// Project Files:
 :LICENSE: https://github.com/tajmone/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
+// External Links:
 :PureBasic: https://www.purebasic.com/[PureBasic^,title="Visit PureBasic website"]
 :SpiderBasic: https://www.spiderbasic.com/[PureBasic^,title="Visit SpiderBasic website"]
+// Users Profiles:
+:SicroAtGit: https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"]
 :tajmone: https://github.com/tajmone[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
 // *****************************************************************************
 // *                                                                           *
@@ -77,20 +82,63 @@ endif::[]
 
 // *****************************************************************************
 // *                                                                           *
-// *                             CODE COLLECTIONS                              *
+// *                               COLLECTIONS                                 *
 // *                                                                           *
 // *****************************************************************************
 
-== Code Collections
 
-[discrete]
-=== PureBasic CodeArchiv Rebirth
+== Collections
 
-* https://github.com/SicroAtGit/PureBasic-CodeArchiv-Rebirth
+Links to PureBasic assets collections.
+
+// =============================================================================
+//                               CODE COLLECTIONS
+// =============================================================================
+
+=== Code Collections
+
+==== PureBasic CodeArchiv Rebirth
+
+* https://github.com/SicroAtGit/PureBasic-CodeArchiv-Rebirth[^,title="Visit PureBasic CodeArchiv Rebirth repository"]
 
 A collection of useful codes from the PureBasic forums and other sources, presented in a categorized and quickly accessible format.
+Every code file/project comes with its own license under which it can be reused.
 
-Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"].
+[horizontal]
+Maintainer:  :: {SicroAtGit}.
+License:     :: Mixed licenses.
+Status:      :: Actively maintained.
+
+// =============================================================================
+//                           MIXED ASSETS COLLECTIONS
+// =============================================================================
+
+=== Mixed Assets Collections
+
+==== PureBASIC Archives
+
+A collection of PureBasic resources.
+
+* https://github.com/tajmone/purebasic-archives[^,title="Visit the PureBASIC Archives repository"]
+
+The project was started by Tristano Ajmone in October 2016 with the goal of creating a collaborative centralized place for gathering and sharing PureBASIC-related resources -- code examples and snippets, libraries, tutorials, books, and links.
+
+In September 2017 the project was temporarily frozen in order to work on a revamped version intended to become a fully browsable HTML project (both online, through GitHub Pages, as well as locally):
+
+* https://github.com/tajmone/pb-archives-test/[^,title="Visit the Alpha version of the revamped PureBASIC Archives repository"]
+
+Work on the new version of the PB Archives soon came to a halt and was never completed.
+The main focus of the work concerned the creation of "`<<Butler CMS>>`" a static website generator from markdown, written entirely in PureBasic.
+Development of <<Butler CMS>> stopped due to Git integrations problems, which eventually led to the whole project into a dead end.
+
+The original PB Archives repository has only received sporadic updates since then, but its resources are still usable today.
+The new Alpha version of the PB Archives contains further resources which might still be of interest to many users.
+Hopefully, the resources gathered in these two projects could be integrated in some actively maintained third party project.
+
+[horizontal]
+Maintainer:  :: {tajmone}.
+License:     :: Mixed licenses.
+Status:      :: Frozen since 2017/09.
 
 // *****************************************************************************
 // *                                                                           *
@@ -102,6 +150,27 @@ Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's
 == Projects
 
 
+=== Documentation Generators
+
+
+==== Doxter
+
+Documentation generator written in PureBasic.
+
+* https://github.com/tajmone/doxter[^,title="Visit Doxter repository"]
+* https://git.io/doxter[^,title="Visit Doxter website"]
+
+Doxter is DRY (Don't Repear Yourself) Documentation-from-source generator leveraging Asciidoctor tagged regions to allow contents reuse across documents via selective inclusions, and a custom weights-based system to control the order in which regions should be rearranged in the final document.
+
+It's a cross-platform and fully standalone command line binary tool.
+Currently supported languages: PureBasic, SpiderBasic, Alan IF.
+
+[horizontal]
+Author:  :: {tajmone}.
+License: :: MIT License.
+Status:  :: Usable Alpha, actively maintained.
+
+
 === Disassemblers
 
 
@@ -109,12 +178,43 @@ Maintained by https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's
 
 diStorm Disassembler for PureBasic.
 
-* https://github.com/ToniPB/distorm-PB
+* https://github.com/ToniPB/distorm-PB[^,title="Visit distorm-PB repository"]
 
 A lightweight, Easy-to-Use and Fast Disassembler/Decomposer Library for x86/AMD64.
 A Decomposer means that you get a binary structure that describes an instruction rather than textual representation.
 
 Based on Gil Dabah's https://github.com/gdabah/distorm[diStorm3^], and released under GPL license.
+
+=== Website Generators
+
+
+==== Butler CMS
+
+A command line static (flat-file) website from markdown generator.
+
+* link:++https://github.com/tajmone/pb-archives-test/tree/source/_butler_++[^,title="View the source code of Bulter CMS at the new PureBASIC Archives repository"]
+
+Butler CMS is a fully functioning static website generator that leverage PP, pandoc and Highlight to generate HTML documentation from pandoc-markdown source files.
+
+Originally designed to manage the website of the <<PureBASIC Archives>>, Butler was never completed due to problems integrating Git workflow in the site deployment stage (namely, handling ignored files via Bash integration), but the app is capable of converting markdown source documents to a full-fledged static HTML website browsable by categories.
+
+Thanks to PP macros the markdown syntax can be fully extended to incorporate custom elements.
+And thanks to Highlight integration Butler is able to syntax highlight PureBasic source code hosted either inside the markdown document or by importing it from external source files, making it an ideal tool to create PureBasic documentation with.
+You can view some example pages online (some images missing), which contain syntax highlighted PureBasic and FAsm code:
+
+* https://htmlpreview.github.io/?https://raw.githubusercontent.com/tajmone/pb-archives-test/source/tutorials/oop/drac/purebasic-oop-4.html[PureBasic and OOP^,title="Live preview of Butler generated web page: PureBasic and OOP"], by Dräc.
+* http://htmlpreview.github.io/?https://github.com/tajmone/pb-archives-test/blob/source/asm/fasm/tutorials/tajga-fasm-tutorial.html[TAJGA FASM Tutorial^,title="Live preview of Butler generated web page: TAJGA FASM Tutorial"], by Vid.
+
+Currently Butler CMS can be used to create documentation or static websites from pandoc markdown files, and it's fairly well documented -- therefore, starting to use it should be quite straightforward.
+Along with the full Butler CMS source code (MIT License), the test project contains a full project that ca be used as a starting point, including a pandoc HTML5 web template and a complete Sass/SCSS project to generate the required stylesheets.
+
+[horizontal]
+Author:       :: {tajmone}.
+License:      :: MIT License.
+Status:       :: Working Alpha, currently unmaintained.
+PB Version:   :: 5.61
+Dependencies: :: PP 2.1.5 | pandoc >= 2.0.4 |Highlight >= 3.40
+
 
 // *****************************************************************************
 // *                                                                           *
@@ -213,6 +313,11 @@ Country: Germany
 
 :UserID: SicroAtGit
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== SparrowhawkMMU (Jean-Yves)
+
+:UserID: SparrowhawkMMU
+* https://gitlab.com/{UserID}[gitlab.com/{UserID}^]
 
 ==== ToniPB
 
