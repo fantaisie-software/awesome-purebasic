@@ -44,9 +44,13 @@ endif::[]
 // External Links:
 :PureBasic: https://www.purebasic.com/[PureBasic^,title="Visit PureBasic website"]
 :SpiderBasic: https://www.spiderbasic.com/[PureBasic^,title="Visit SpiderBasic website"]
+// Licenses:
+:Unlicense: http://unlicense.org[Unlicense^,title="Visit the Unlicense website"]
 // Users Profiles:
-:SicroAtGit: https://github.com/SicroAtGit[SicroAtGit^,title="View SicroAtGit's profile on GitHub"]
-:tajmone: https://github.com/tajmone[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
+:codeprof: https://github.com/codeprof{GitHubFilter}[Stefan Moebius^,title="View Stefan Moebius's profile on GitHub"]
+:deseven: https://github.com/deseven{GitHubFilter}[deseven^,title="View deseven's profile on GitHub"]
+:SicroAtGit: https://github.com/SicroAtGit{GitHubFilter}[SicroAtGit^,title="View SicroAtGit's profile on GitHub"]
+:tajmone: https://github.com/tajmone{GitHubFilter}[Tristano Ajmone^,title="View Tristano Ajmone's profile on GitHub"]
 // *****************************************************************************
 // *                                                                           *
 // *                            Document Preamble                              *
@@ -108,6 +112,28 @@ Every code file/project comes with its own license under which it can be reused.
 Maintainer:  :: {SicroAtGit}.
 License:     :: Mixed licenses.
 Status:      :: Actively maintained.
+
+// ==============================================================================
+//                              EXAMPLES COLLECTIONS
+// ==============================================================================
+
+=== Examples Collections
+
+Links to collections of PureBasic code examples by various authors.
+
+
+==== pbsamples
+
+* https://github.com/deseven/pbsamples[^,title="Visit this repository on GitHub"]
+
+An assorted collection of PB 5.20 examples for Windows and OSX, by {deseven}; released into public domain via {Unlicense}.
+
+
+==== small-PureBasic-projects
+
+* https://github.com/codeprof/small-PureBasic-projects[^,title="Visit this repository on GitHub"]
+
+A rich collection of various projects by {codeprof}, mostly released into the public domain (check licenses on a per folder base).
 
 // =============================================================================
 //                           MIXED ASSETS COLLECTIONS
@@ -242,45 +268,58 @@ Don't forget to follow authors you like!
 === Users
 
 
-==== aziascreations (Herwin Bozet)
+==== Anatolt
 
-Country: Belgium
+Anatoly Tarasenko (Russia).
+
+:UserID: Anatolt
+* https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
+
+==== aziascreations
+
+Herwin Bozet (Belgium).
 
 :UserID: aziascreations
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== codeprof (Stefan Moebius)
+==== codeprof
 
-Country: Germany
+Stefan Moebius (Germany).
 
 :UserID: codeprof
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== creamcast (BORIS)
+==== creamcast
+
+BORIS.
 
 :UserID: creamcast
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== Dadido3 (David Vogel)
+==== Dadido3
+
+David Vogel.
 
 :UserID: Dadido3
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
 ==== deseven
 
-Country: Serbia
+(Serbia)
 
 :UserID: deseven
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
 ==== falsam
 
-Country: France
+(France)
 
 :UserID: falsam
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== Guevara-chan (Victoria Guevara)
+==== Guevara-chan
+
+Victoria Guevara.
 
 :UserID: Guevara-chan
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
@@ -295,26 +334,30 @@ Country: France
 :UserID: mestnyi33
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== microdevweb (Bielen Pierre)
+==== microdevweb
 
-Country: Belgium
+Bielen Pierre (Belgium).
 
 :UserID: microdevweb
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== nueh (Niklas Hennigs)
+==== nueh
+
+Niklas Hennigs.
 
 :UserID: nueh
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
 ==== SicroAtGit
 
-Country: Germany
+(Germany)
 
 :UserID: SicroAtGit
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== SparrowhawkMMU (Jean-Yves)
+==== SparrowhawkMMU
+
+Jean-Yves.
 
 :UserID: SparrowhawkMMU
 * https://gitlab.com/{UserID}[gitlab.com/{UserID}^]
@@ -324,9 +367,9 @@ Country: Germany
 :UserID: ToniPB
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
-==== tajmone (Tristano Ajmone)
+==== tajmone
 
-Country: Italy
+Tristano Ajmone (Italy).
 
 :UserID: tajmone
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
