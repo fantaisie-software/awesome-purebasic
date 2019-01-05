@@ -7,13 +7,13 @@ Tristano Ajmone <tajmone@gmail.com>
 :keywords: purebasic, resources, libraries, source code, projects, open source
 // TOC Settings:
 :toclevels: 2
+// GitLab setting to show TOC after Preamble
 :toc: macro
+// TOC ... HTML Backend Hack to show TOC on the Left
 ifdef::backend-html5[]
 :toc: left
 endif::[]
-ifndef::backend-html5[]
-:toc: macro
-endif::[]
+// TOC ... GitHub Hack to show TOC after Preamble (required)
 ifdef::env-github[]
 :toc: macro
 endif::[]
@@ -72,7 +72,7 @@ Don't forget to star projects you like! (It's free and shows appreciation)
 ================================================================================
 
 
-// GitHub/GitLab hacks to ensure TOC is shown after Preamble:
+// >>> GitLab/GitHub hacks to ensure TOC is shown after Preamble: >>>>>>>>>>>>>>
 ifndef::backend-html5[]
 '''
 toc::[]
@@ -83,6 +83,7 @@ ifdef::env-github[]
 toc::[]
 '''
 endif::[]
+// <<< GitHub/GitLab hacks <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // *****************************************************************************
 // *                                                                           *
