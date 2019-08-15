@@ -1,6 +1,6 @@
 = Awesome PureBasic
 Tristano Ajmone <tajmone@gmail.com>
-2019-01-03
+2019-08-15
 :lang: en
 // Metadata:
 :description: pass:[Awesome PureBasic &mdash; A curated list of PureBasic resources.]
@@ -389,5 +389,32 @@ Groups of people gathering under GitHub organization profiles to collaborate on 
 :UserID: pbcodex
 * https://github.com/{UserID}{GitHubFilter}[github.com/{UserID}^]
 
+// *****************************************************************************
+// *                                                                           *
+// *                                TEMPLATES                                  *
+// *                                                                           *
+// *****************************************************************************
+
+
+== Templates
+
+
+Links to useful templates, snippets collections and other reusable PureBasic assets.
+
+
+=== PureBasic Repository Template
+
+A boilerplate for quickly creating PureBasic projects with all the right settings in place.
+
+* https://github.com/tajmone/purebasic-repository-template[github.com/tajmone/purebasic-repository-template^]
+
+Thanks to this template you'll be able to create new repositories on GitHub preconfigured to host PureBasic projects, abstracting away the need of manually configuring all the nitty-gritty of cross platform portability.
+
+[horizontal]
+Maintainer:  :: {tajmone}.
+License:     :: CC0 Universal (public domain).
+Status:      :: Actively maintained.
+
+https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/[Repository templates is a new GitHub feature introduced in June 2019.^,title="Read the original announcement on GitHub blog"]
 
 // EOF //
