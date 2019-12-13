@@ -1,6 +1,6 @@
 = Awesome PureBasic
 Tristano Ajmone <tajmone@gmail.com>
-2019-08-15
+2019-12-13
 :lang: en
 // Metadata:
 :description: pass:[Awesome PureBasic &mdash; A curated list of PureBasic resources.]
@@ -40,7 +40,7 @@ endif::[]
 // Substitutions Helpers:
 :GitHubFilter: ?tab=repositories&language=purebasic
 // Project Files:
-:LICENSE: https://github.com/tajmone/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
+:LICENSE: https://github.com/fantaisie-software/awesome-purebasic/blob/master/LICENSE[MIT License^,title="View License file"]
 // External Links:
 :PureBasic: https://www.purebasic.com/[PureBasic^,title="Visit PureBasic website"]
 :SpiderBasic: https://www.spiderbasic.com/[PureBasic^,title="Visit SpiderBasic website"]
@@ -61,9 +61,10 @@ endif::[]
 A curated list of {PureBasic} resources.
 Created by {tajmone} on January 2^nd^, 2019.
 
-* https://github.com/tajmone/awesome-purebasic[^] -- GitHub repository
-* https://gitlab.com/tajmone/awesome-purebasic[^] -- GitLab repository
-* https://git.io/awesome-purebasic[^] -- GitHub Pages website
+[horizontal]
+GitHub repository    :: https://github.com/fantaisie-software/awesome-purebasic[^]
+GitLab repository    :: https://gitlab.com/tajmone/awesome-purebasic[^]
+GitHub Pages website :: https://fantaisie-software.github.io/awesome-purebasic[^]
 
 Released under {LICENSE}.
 

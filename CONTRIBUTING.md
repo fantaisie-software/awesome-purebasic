@@ -57,7 +57,7 @@ The document is rather simply structured, so looking at how the present entries 
 
 ## Don't Add Links to Unlicensed Resources
 
-Links to illegitimate/unauthorized resources _will not_ be included in this project. Any source code and resource that does not bare an _explicit_ license or permission of reusability is to be considered as copyrighted material. 
+Links to illegitimate/unauthorized resources _will not_ be included in this project. Any source code and resource that does not bare an _explicit_ license or permission of reusability is to be considered as copyrighted material.
 
 ## Don't Use Issues to Submit Links
 
@@ -146,7 +146,7 @@ Unless an author states that his/her code may be freely reused by others (by a c
 When in doubt, always ask the original author for permission before redistributing his/her code or utilizing it in your own project.
 
 <!-----------------------------------------------------------------------------
-                               REFERENCE LINKS                                
+                               REFERENCE LINKS
 ------------------------------------------------------------------------------>
 
 <!-- In-Doc Cross References -->
@@ -165,7 +165,7 @@ When in doubt, always ask the original author for permission before redistributi
 
 <!-- PB Links -->
 
-[Awesome PureBasic]: https://github.com/tajmone/awesome-purebasic "Visit the Awesome PureBasic repository"
+[Awesome PureBasic]: https://github.com/fantaisie-software/awesome-purebasic "Visit the Awesome PureBasic repository"
 [PureBasic Forum]: https://www.purebasic.fr/english/
 [PureBasic]: https://www.purebasic.com/ "Visit PureBasic official website"
 [SpiderBasic]: https://www.spiderbasic.com/ "Visit SpiderBasic official website"
